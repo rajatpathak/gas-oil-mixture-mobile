@@ -1,0 +1,33 @@
+{
+  "name": "gas-oil-ratio-calculator",
+  "description": "Mobile app which calculate gasoline/oil ratio for 2 stroke engines.",
+  "version": "1.01",
+  "author": "Filip Papranec",
+  "keywords": [
+    "react-native",
+    "react-native-app",
+    "android",
+    "ios",
+    "gas-oil-calculator"
+  ],
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "install:dev": "react-native run-android",
+    "install:prod": "cd android && ./gradlew clean && ./gradlew installRelease",
+    "build:prod": "cd android && ./gradlew clean && ./gradlew assembleRelease"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.47.1",
+    "react-native-action-sheet-fork": "https://github.com/filippofilip95/react-native-action-sheet/tarball/master",
+    "react-native-i18n": "^2.0.4",
+    "react-native-material-textfield": "^0.9.0",
+    "react-native-vector-icons": "^4.3.0",
+    "react-navigation": "^1.0.0-beta.11",
+    "react-redux": "^5.0.5",
+    "recompose": "^0.24.0",
+    "redux": "^3.7.2",
+    "redux-persist": "^4.8.3"
+  }
+}
