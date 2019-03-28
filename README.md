@@ -2,10 +2,6 @@
 
 # Gas/Oil mix ratio calculator
 
-### App preview
-
-<div align="center"><img src="https://github.com/filippofilip95/gas-oil-ratio-calc/blob/master/previews/app.gif?raw=true" width="300"></div>
-
 
 ## Developement
 
